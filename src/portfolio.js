@@ -43,12 +43,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE FRONTEND ENGINEER EXPLORING MODERN WEB TECHNOLOGIES AND TOOLS.",
+  subTitle:
+    "PASSIONATE FRONTEND ENGINEER EXPLORING MODERN WEB TECHNOLOGIES AND TOOLS.",
   skills: [
     emoji(
       "⚡ Building responsive, user-friendly web applications using React.js and Next.js"
     ),
-    emoji("⚡ Build Progressive Web Applications (PWAs) for offline-first and online experiences"),
+    emoji(
+      "⚡ Build Progressive Web Applications (PWAs) for offline-first and online experiences"
+    ),
     emoji(
       "⚡ Integrate third-party services like Firebase for authentication and database"
     )
@@ -160,7 +163,6 @@ const workExperiences = {
   ]
 };
 
-
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
@@ -175,7 +177,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Personal Portfolio",
-      projectDesc: "My personal portfolio website built with React.js and deployed on GitHub Pages",
+      projectDesc:
+        "My personal portfolio website built with React.js and deployed on GitHub Pages",
       footerLink: [
         {
           name: "Visit Website",
@@ -235,9 +238,7 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY KNOWLEDGE WHEN I GET THE OPPORTUNITY"
-  ),
+  subtitle: emoji("I LOVE TO SHARE MY KNOWLEDGE WHEN I GET THE OPPORTUNITY"),
 
   talks: [
     {
@@ -257,9 +258,7 @@ const podcastSection = {
   subtitle: "I SHARE MY THOUGHTS ON FRONTEND DEVELOPMENT",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://voca.ro/1eruti5TOexa"
-  ],
+  podcast: ["https://voca.ro/1eruti5TOexa"],
   display: false // Set false to hide this section, defaults to true
 };
 
